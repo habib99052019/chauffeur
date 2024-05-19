@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<style id="ao_optimized_gfonts" media="print" onload="this.onload=null;this.media='all';">/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><link rel="preconnect" href="https://googleads.g.doubleclick.net">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0" />
+
+
+<link rel="shortcut icon" href="https://www.transfeero.com/cdn/common/img/q.svg" type="image/x-icon">
+<link rel="icon" href="https://www.transfeero.com/cdn/common/img/q.svg" type="image/x-icon">
+<meta name="google-signin-client_id" content="400991711438-hafldadj5gam2k1q4gm8q33nrg6r805v.apps.googleusercontent.com">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.transfeero.com/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.transfeero.com/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.transfeero.com/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.transfeero.com/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://www.transfeero.com/favicon/safari-pinned-tab.svg" color="#f9b442">
+<meta name="msapplication-TileColor" content="#212121">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-itunes-app" content="app-id=1511485835">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<link rel="alternate" hreflang="en" href="https://www.transfeero.com/en/" />
+<link rel="alternate" hreflang="de" href="https://www.transfeero.com/de/" />
+<link rel="alternate" hreflang="fr" href="https://www.transfeero.com/fr/" />
+<link rel="alternate" hreflang="it" href="https://www.transfeero.com/it/" />
+<link rel="alternate" hreflang="es" href="https://www.transfeero.com/es/" />
+<link rel="alternate" hreflang="x-default" href="https://www.transfeero.com/en/" />
+
+<title>Transfeero Airport Taxi Transfers: Reliability, worldwide</title>
+<meta name="description" content="Experience hassle-free airport transfers with Transfeero. Our reliable services ensure a smooth and comfortable journey. Book now!" />
+<link rel="canonical" href="https://www.transfeero.com/en/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Reliable airport transfers | Transfeero" />
+<meta property="og:description" content="Experience hassle-free airport transfers with Transfeero. Our reliable services ensure a smooth and comfortable journey. Book now!" />
+<meta property="og:url" content="https://www.transfeero.com/en/" />
+<meta property="og:site_name" content="Transfeero" />
+<meta property="article:publisher" content="https://www.facebook.com/transfeero/" />
+<meta property="article:modified_time" content="2024-05-07T12:46:18+00:00" />
+<meta property="og:image" content="https://www.transfeero.com/wp-content/uploads/2023/08/home-2-1024x288.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="288" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<script data-jetpack-boost="ignore" type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.transfeero.com/en/#primaryimage","url":"https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=3576,h=1005","contentUrl":"https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=3576,h=1005","width":3576,"height":1005,"caption":"Transfeero Airport Transfers"},{"@type":"BreadcrumbList","@id":"https://www.transfeero.com/en/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https://www.transfeero.com/en/#organization","name":"Transfeero","url":"https://www.transfeero.com/en/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.transfeero.com/en/#/schema/logo/image/","url":"https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/04/transfeero_q.png/w=100","contentUrl":"https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/04/transfeero_q.png/w=100","width":100,"height":100,"caption":"Transfeero"},"image":{"@id":"https://www.transfeero.com/en/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/transfeero/","https://www.instagram.com/transfeero/"]}]}</script>
+
+<link rel="dns-prefetch" href="//www.transfeero.com" />
+<link href="https://imagedelivery.net" rel="preconnect" />
+<link href="https://fonts.gstatic.com" crossorigin="anonymous" rel="preconnect" />
+<link rel="stylesheet" id="all-css-677bb66679e09b956477367a00eb0c07" href="https://www.transfeero.com/_jb_static/??/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css,/wp-content/themes/understrap-master/css/theme.min.css?m=1715088412&cb=1" type="text/css" media="all" />
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<meta name="generator" content="WPML ver:4.6.10 stt:1,4,3,27,2;" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Transfeero - Reliable airport transfers">
+<link rel="preload" href="https://www.transfeero.com/mainjs/flatpicker/flatpickr_2.min.css?v=4" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://www.transfeero.com/mainjs/flatpicker/flatpickr_2.min.css?v=4"></noscript>
+<link href="https://www.transfeero.com/wp-content/themes/understrap-master/mstyle.css?v=12" rel="stylesheet">
+<link href="https://www.transfeero.com/mainjs/the_new_style.css?v=12" rel="stylesheet">
+</head>
+<body class="home page-template page-template-page-templates page-template-transfer-new-home page-template-page-templatestransfer-new-home-php page page-id-5 wp-embed-responsive group-blog">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL5GXF2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="site" id="page">
+
+<div id="wrapper-navbar">
+<nav class="proprio" style="text-align:right; padding-right:25px">
+<div class="container" style="padding-right: 10px;">
+<div class="dropdown" id="nomobilelg" style="padding: 9px;">
+<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none; ">
+<strong> English</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" title="English" href="https://www.transfeero.com/en/"><strong>English <i class="fas fa-check fa-fw"></i></strong> </a> <a class="dropdown-item" title="Deutsch" href="https://www.transfeero.com/de/">Deutsch</a> <a class="dropdown-item" title="Français" href="https://www.transfeero.com/fr/">Français</a> <a class="dropdown-item" title="Italiano" href="https://www.transfeero.com/it/">Italiano</a> <a class="dropdown-item" title="Español" href="https://www.transfeero.com/es/">Español</a> </div>
+</div>
+<div id="is_log_in_login" style="display: inline-block"> <i class="fa-solid fa-circle-notch fa-spin"></i> </div>
+<div id="is_log_in" style="display:none;">
+<a href="https://account.transfeero.com/" target="_blank" title="Welcome" style="text-decoration:none;"><i class="fas fa-user-circle"></i> <strong id="the_login_name"></strong></a> <a href="#" onclick="signOut();" title="log-out" style="color: #f9b442"> <i class="fa-solid fa-sign-out-alt"></i></a>
+</div>
+<div id="is_log_out" style="display:none;"><a href="https://account.transfeero.com/" target="_blank" title="Sign-in" style="text-decoration:none; font-weight: 600"><i class="fa-solid fa-circle-user"></i> Sign-in</a></div>
+<div class="dropdown" id="mobilelg">
+<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none;">
+en </a>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" title="English" href="https://www.transfeero.com/en/"><strong>English <i class="fas fa-check fa-fw"></i></strong> </a> <a class="dropdown-item" title="Deutsch" href="https://www.transfeero.com/de/">Deutsch</a> <a class="dropdown-item" title="Français" href="https://www.transfeero.com/fr/">Français</a> <a class="dropdown-item" title="Italiano" href="https://www.transfeero.com/it/">Italiano</a> <a class="dropdown-item" title="Español" href="https://www.transfeero.com/es/">Español</a> </div>
+</div>
+<div>
+</div></nav>
+<nav class="navbar mio navbar-expand-lg navbar-dark" id="mioBa" style="-webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.08), 0px -1px 2px 0px rgba(0,0,0,0.02); -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.08),  0px -1px 2px 0px rgba(0,0,0,0.02); box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.08), 0px -1px 2px 0px rgba(0,0,0,0.02); ">
+<div class="container">
+<a href="https://www.transfeero.com/en/" title="Airport Transfers" style="text-decoration:none">
+<div class="logodef" id="logodef">
+<noscript><img src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_black.svg" alt="Transfeero" class="the_logo"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_black.svg" id="the_main_logo" alt="Transfeero" class="lazyload the_logo">
+</div>
+</a>
+<button class="navbar-toggler" style="margin-top: -1px;" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span style="color: #333333; font-size: 25px"><i class="fas fa-bars"></i></span>
+</button>
+
+<div id="navbarNavDropdown" class="collapse navbar-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemprop="name" id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item active menu-item-1118 nav-item"><a itemprop="url" title="Airport ride" href="https://www.transfeero.com/en/" class="nav-link">Airport ride</a></li>
+<li itemprop="name" id="menu-item-1117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1117 nav-item"><a itemprop="url" title="City-to-city rides" href="https://www.transfeero.com/en/city-to-city-rides/" class="nav-link">City rides</a></li>
+<li itemprop="name" id="menu-item-27091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27091 nav-item"><a itemprop="url" title="Hourly Service" href="https://www.transfeero.com/en/hourly-service/" class="nav-link">Hourly Service</a></li>
+<li itemprop="name" id="menu-item-5855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5855 nav-item"><a itemprop="url" title="Help" target="_blank" href="https://help.transfeero.com/en" class="nav-link">Help</a></li>
+<div class="noninmobile" style="border-top: 1px solid #dbdbdb;">
+<div style="font-weight: 600; margin-top: 10px; margin-bottom: 10px;">
+<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none; ">
+English
+</a>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" title="English" href="https://www.transfeero.com/en/"><strong>English <i class="fas fa-check fa-fw"></i></strong> </a> <a class="dropdown-item" title="Deutsch" href="https://www.transfeero.com/de/">Deutsch</a> <a class="dropdown-item" title="Français" href="https://www.transfeero.com/fr/">Français</a> <a class="dropdown-item" title="Italiano" href="https://www.transfeero.com/it/">Italiano</a> <a class="dropdown-item" title="Español" href="https://www.transfeero.com/es/">Español</a>
+</div>
+</div>
+</div>
+<li itemprop="name" id="menu-item-529" class="loginmenus menu-item menu-item-type-post_type menu-item-object-page menu-item-529 nav-item">
+<div id="is_log_in_login_m" style="display: inline-block;"> <i class="fa-solid fa-circle-notch fa-spin"></i> </div>
+<div id="is_log_in_m" style="display:none;  margin-top: 10px;">
+<a href="https://account.transfeero.com/" title="Welcome" style="text-decoration:none;"><i class="fas fa-user-circle"></i> <strong id="the_login_name_m"></strong></a> <a href="#" onclick="signOut();" title="log-out" style="color: #f9b442"> <i class="fas fa-sign-out-alt"></i></a>
+</div>
+<div id="is_log_out_m" style="display:none; margin-top: 10px;"><a href="https://account.transfeero.com/" title="Sign-in" style="text-decoration:none; font-weight: 600"><i class="fa-solid fa-circle-user"></i> Sign-in</a></div>
+</li> <br/></ul></div>
+<div id="omob2" style="color: #333333;  float: right;  font-weight: bold">
+</div>
+</nav>
+</div>
+<style>
+    .background-res-url {
+
+        position: absolute;
+        height: 625px;
+        width: 100%;
+        z-index: -99;
+        margin-top: -126px;
+        background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=2290,h=625,fit=cover,dpr=1) no-repeat center top;
+        background-size: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+
+    @media only screen and (max-width: 1990px) {
+        .background-res-url {
+            background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=1990,h=625,fit=cover,dpr=1) no-repeat center top;
+        }
+    }
+
+
+    @media only screen and (max-width: 1660px) {
+        .background-res-url {
+            background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=1660,h=625,fit=cover,dpr=1) no-repeat center top;
+        }
+    }
+
+    @media only screen and (max-width: 1320px) {
+        .background-res-url {
+            background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=1320,h=625,fit=cover,dpr=1) no-repeat center top;
+        }
+    }
+
+
+    @media only screen and (max-width: 750px) {
+        .background-res-url {
+            background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=750,h=625,fit=cover,dpr=1) no-repeat center top;
+        }
+    }
+
+    @media only screen and (max-width: 390px) {
+        .background-res-url {
+            background: url(https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=390,h=625,fit=cover,dpr=1) no-repeat center top;
+        }
+    }
+
+
+</style>
+<div class="background-res-url">
+<div class="layer22">
+</div>
+</div>
+<div class="wrapper" id="page-wrapper">
+<div style="position: relative; margin-bottom: 5px;"></div>
+<div class="container" id="content">
+<div class="row nomar">
+<div class="col-lg-7 nomar">
+<h1 class="new_title"><span style="font-weight:700" class="underlined">Reliable</span> airport transfers</h1>
+</div>
+<div class="col-lg-5 nomar">
+<div class="bookingpos margin_promo_new">
+<div class="bookpos">
+<div class="toppi_bar">
+<div class="fromair"> Ride</div>
+<a href="https://www.transfeero.com/en/hourly-service/" title="Hourly Service">
+<div class="toair"><i class="fa-solid fa-timer fa-fw"></i> By the hour </div>
+</a>
+</div>
+<form id="cercaform" autocomplete="off">
+<input type="hidden" value="1" name="new_sys" id="new_sys">
+<input type="hidden" value="1" name="to_airport" id="viceverso">
+<input type="hidden" value name="date" id="dateT">
+<input type="hidden" value name="time" id="timeT">
+<input type="hidden" value name="user_id">
+<input type="hidden" value name="date_r" id="date_rT">
+<input type="hidden" value name="time_r" id="time_rT">
+<input type="hidden" value="1" name="city_to_city" id="city_to_city">
+<input type="hidden" value name="placeid1" id="placeid1">
+<input type="hidden" value name="placeid2" id="placeid2">
+<input type="hidden" value="0" name="hourly_service_duration" id="hourly_service_duration">
+<input type="hidden" value name="iata_a" id="iata_a">
+<input type="hidden" value name="iata_r" id="iata_r">
+<input type="hidden" value="W0WFIuznlojP8pROHWeeOmfDX2LCCTMQdBxtReTUakPEHHjY0g4qSCzDtK8D2cv5eEW0JMQX1ey4FTtypIdQwZkvE6FmOif" name="Thekey" id="hourly_service_duration">
+<div id="container_start" style="position: relative; display: block; margin-bottom: 10px;">
+<div id="container_content_start">
+<div id="no_start" style="font-size: 10px; display:none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px; margin:3px; background-color: #9c2828; border-radius: 4px; position: absolute; top: 5px; right: 5px; z-index: 999;" class="facealert"><i class="fas fa-traffic-cone"></i> REQUIRED </div>
+<label for="start" class="floatingelement" style="pointer-events: none; padding: 10px 12px;">From</label>
+<div id="icon_start"><i class="fa-solid fa-location-dot"></i></div>
+<input type="text" autocomplete="off" id="address_start" name="start" class="form-control form-control-lg" style="border: 0px; border-radius: 10px;  font-size: 18px; height: 80px;  padding: 35px 26px 7px 33px; background-color:#ececec" placeholder="Address, airport, hotel, ..." aria-describedby="basic-addon2" data-lpignore="true" data-1p-ignore="true" required>
+<div id="clear_start"></div>
+<div id="the_results_start" style>
+<ul id="predictions_results_start"></ul>
+<noscript><img
+                                                class="powered-by-google"
+                                                src=""
+                                                alt="Powered by Google"
+                                        /></noscript><img class="lazyload powered-by-google" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src alt="Powered by Google" />
+</div>
+<i id="checcato1" class="fa fa-check-circle" style="display: none; position: absolute; top: 5px; right: 5px; z-index: 99; color: #f9b442; font-size: 20px"></i>
+</div>
+</div>
+<div id="container_end" style="position: relative; display: block; margin-bottom: 10px;">
+<div id="container_content_end">
+<div id="no_end" style="font-size: 10px; display:none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px; margin:3px; background-color: #9c2828; border-radius: 4px; position: absolute; top: 5px; right: 5px; z-index: 999;" class="facealert"><i class="fas fa-traffic-cone"></i> REQUIRED </div>
+<label for="end" class="floatingelement" id="gointo" style="pointer-events: none; padding: 10px 12px;">To</label>
+<div id="icon_end"><i class="fa-solid fa-location-dot"></i></div>
+<input type="text" autocomplete="off" id="address_end" name="end" class="form-control form-control-lg" style="border: 0px; border-radius: 10px;  font-size: 18px; height: 80px; padding: 35px 26px 7px 33px; background-color:#ececec" placeholder="Address, airport, hotel, ..." aria-describedby="basic-addon2" data-lpignore="true" data-1p-ignore="true" required>
+<div id="clear_end"></div>
+<div id="the_results_end">
+<ul id="predictions_results_end"></ul>
+<noscript><img
+                                                class="powered-by-google"
+                                                src=""
+                                                alt="Powered by Google"
+                                        /></noscript><img class="lazyload powered-by-google" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src alt="Powered by Google" />
+</div>
+<i id="checcato2" class="fa fa-check-circle" style="display: none; position: absolute; top: 5px; right: 5px; z-index: 99; color: #f9b442; font-size: 20px"></i>
+</div>
+</div>
+<div id="container_p_date" style="position: relative; display: block; margin-bottom: 10px;">
+<div class="row" style="margin: 0px !important;">
+<div class="col-6" style="padding: 0px 5px 0px 0px;">
+<label for="p_date" class="floatingelement" id="gointo" style="pointer-events: none; padding: 7px 12px; font-size: 14px; color: #8e8e8e;"><i class="fa-solid fa-calendar-days fa-fw"></i> Pickup date </label>
+<div id="no_data" style="font-size: 10px; display:none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px; margin:3px; background-color: #9c2828; border-radius: 4px; position: absolute; top: 26px;  left: 10px;" class="facealert"><i class="fas fa-traffic-cone"></i></div>
+<input id="p_date" type="text">
+</div>
+<div class="col-6" style="padding: 0px 0px 0px 5px;">
+<label for="p_time" class="floatingelement" id="gointo" style="pointer-events: none; padding: 7px 12px; font-size: 14px; color: #8e8e8e;"><i class="fa-solid fa-clock fa-fw"></i> Pickup time </label>
+<input id="p_time" type="text">
+</div>
+</div>
+</div>
+<span class="btn btn-outline-dark btn-block" id="add_reurn" style="border-radius: 10px; padding: 17px; margin-bottom: 10px; cursor: pointer; background-color: rgb(255, 255, 255);color: rgb(63 63 63); border-color: rgb(221 221 221)">ADD RETURN</span>
+<div id="container_d_date" style="position: relative; margin-bottom: 10px; display: none;">
+<div class="row" style="margin: 0px !important;">
+<div class="col-6" style="padding: 0px 5px 0px 0px;">
+<label for="d_date" class="floatingelement" id="gointo" style="pointer-events: none; padding: 7px 12px; font-size: 14px; color: #8e8e8e;"><i class="fa-solid fa-calendar-days fa-fw"></i> Return date </label>
+<div id="no_dataR" style="font-size: 10px; display:none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px; margin:3px; background-color: #9c2828; border-radius: 4px; position: absolute; top: 26px;  left: 10px;" class="facealert"><i class="fas fa-traffic-cone"></i></div>
+<input id="d_date" type="text">
+</div>
+<div class="col-6" style="padding: 0px 0px 0px 5px;">
+<label for="d_time" class="floatingelement" id="gointo" style="pointer-events: none; padding: 7px 12px; font-size: 14px; color: #8e8e8e;"><i class="fa-solid fa-clock fa-fw"></i> Pickup time </label>
+<input id="d_time" type="text">
+</div>
+</div>
+<span id="removereturn" style="display:none; position: absolute;top: -8px;right: -1px;z-index: 999;color: rgb(50 50 50);font-size: 20px;cursor: pointer;"><i class="fa fa-times-circle"></i></span>
+</div>
+<div id="container_pax" style="position: relative; display: block; margin-bottom: 10px;">
+<label for="pax" class="floatingelement" id="gointo" style="pointer-events: none; padding: 7px 12px; font-size: 14px; color: #8e8e8e;"><i class="fa-solid fa-user-group fa-fw"></i> Passengers </label>
+<input type="text" class="form-control ThePax" value="2" readonly="readonly" name="pax" id="pax" style="border: 0px solid #fff; border-radius: 10px; font-size: 18px; height: 60px;  padding: 36px 16px 7px 12px; background-color:#ececec !important">
+<div id="selectPAX" class="selectPAX">
+<div class="form-group marginb row">
+<label class="col-5 col-form-label" style="color: #212121"> Adults <br/><small style="color: grey">+12 years</small></label>
+<div class="col-7">
+<div class="input-group mb-2">
+<div class="input-group-prepend">
+<input type="button" value="-" class="qtyminus qtyminus1 btn btn-primary pulsantepiumeno" field="pax_adult" />
+</div>
+<input type="text" readonly="readonly" value="2" id="pax_adult" class="qty form-control formquatita" onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+<div class="input-group-append">
+<input type="button" value="+" class="qtyplus qtyplus1 btn btn-primary pulsantepiumeno" field="pax_adult" />
+</div>
+</div>
+</div>
+</div>
+<div class="form-group marginb row">
+<label class="col-5 col-form-label" style="color: #212121"> Children <br/><small style="color: grey">2-12 years</small></label>
+<div class="col-7">
+<div class="input-group mb-2">
+<div class="input-group-prepend">
+<input type="button" value="-" class="qtyminus qtyminus2 btn btn-primary pulsantepiumeno" field="pax_child" />
+</div>
+<input type="text" readonly="readonly" value="0" id="pax_child" class="qty form-control formquatita" onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+<div class="input-group-append">
+<input type="button" value="+" class="qtyplus qtyplus2 btn btn-primary pulsantepiumeno" field="pax_child" />
+</div>
+</div>
+</div>
+</div>
+<div class="form-group marginb row">
+<label class="col-5 col-form-label" style="color: #212121"> Infants <br/><small style="color: grey">0-2 years</small></label>
+<div class="col-7">
+<div class="input-group mb-2">
+<div class="input-group-prepend">
+<input type="button" value="-" class="qtyminus qtyminus3 btn btn-primary pulsantepiumeno" field="pax_infant" />
+</div>
+<input type="text" readonly="readonly" value="0" id="pax_infant" class="qty form-control formquatita" onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+<div class="input-group-append">
+<input type="button" value="+" class="qtyplus qtyplus3 btn btn-primary pulsantepiumeno" field="pax_infant" />
+</div>
+</div>
+</div>
+</div>
+<button id="close_pax" class="btn btn-block btn-grad" style="padding: 10px 45px !important">CONFIRM</button>
+</div>
+</div>
+<div id="container_button" style="position: relative; display: block;">
+<button type="submit" id="sendButton" class="btn btn-block btn-grad" style="padding: 15px 5px !important; font-size: 21px;"><i class="fas fa-search"></i> SEARCH<br/>
+</button>
+</div>
+</form>
+</div>
+</div>
+<div class="rat_banni_new">
+<center>
+<span style="font-size: 20px; text-transform: uppercase; font-weight:700;" class="fa-gradient">Excellent</span>
+<div id="cf">
+<noscript><img class="bottom1"
+                                 src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/trustpilot.png/dpr=1.5,w=300"
+                                 alt="Trustpilot" style="background-color: #fff;"></noscript><img class="lazyload bottom1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/trustpilot.png/dpr=1.5,w=300" alt="Trustpilot" style="background-color: #fff;">
+</div>
+</center>
+</div>
+</div>
+
+</div>
+</div>
+<div class="lazyload promoimage_small new_height" data-bg="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/bg_route-1.jpg/w=2020,fit=cover,dpr=2" style="position: relative; width: 100%; height: 300px; background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E) !important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<div class="wrapper" id="page-wrapper">
+<div class="container" id="content">
+<div class="row">
+<div class="col-lg-4">
+<div class="homepromo_small"><span style="font-weight: 300; font-size: 42px; line-height: 50px;"> Reliability, worldwide</span>
+<noscript><img style="	width: 25px!important; height: 37px !important; margin-top: -13px; margin-left: 5px;"
+                                 src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero logo"></noscript><img class="lazyload" style="	width: 25px!important; height: 37px !important; margin-top: -13px; margin-left: 5px;" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero logo">
+<br/><br/>
+<span style="font-weight: 600"> Affordable <i class="fa-solid fa-circle-small fa-fw"></i> Punctual <i class="fa-solid fa-circle-small fa-fw"></i> Professional<br/></span>
+</div>
+</div>
+<div class="col-lg-4">
+</div>
+<div class="col-lg-4">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<div class="container" id="content">
+<div class="col-lg-12">
+<div class="col-lg-4"></div>
+<div class="col-lg-4"></div>
+<div class="col-lg-4"></div>
+<div class="topmaintop" style="	margin-top: 82px;
+		  background-color: #fff;
+		  border-radius: 10px;">
+<div class="row" style="padding: 11px;">
+<div class="col-12 col-lg-4" style="padding: 30px;">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo_4.jpg/dpr=2,w=348,h=150,fit=crop"
+                                 alt="Airport Transfers"
+                                 style="border-radius: 10px; width:348px; height: 150px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo_4.jpg/dpr=2,w=348,h=150,fit=crop" alt="Airport Transfers" style="border-radius: 10px; width:348px; height: 150px;">
+<h2 style="font-size: 25px;
+		  font-weight: 500; padding-bottom: 0px;
+		  margin-bottom: 4px;">Airport transfers</h2>
+<p style="font-size: 16px; margin-bottom: 5px;">Book your stress-free airport transportation at competitive prices.</p>
+<a href="https://www.transfeero.com/en/" title="Airport transfers" style="text-decoration: underline;  color: #212121;  font-weight: 700;  font-size: 16px;">Learn more</a>
+</div>
+<div class="col-12 col-lg-4" style="padding: 30px;">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo_2.jpg/dpr=2,w=348,h=150,fit=crop"
+                                 alt="Chauffeur by the hour"
+                                 style="border-radius: 10px; width:348px; height: 150px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo_2.jpg/dpr=2,w=348,h=150,fit=crop" alt="Chauffeur by the hour" style="border-radius: 10px; width:348px; height: 150px;">
+<h2 style="font-size: 25px;
+		 font-weight: 500;padding-bottom: 0px;
+		 margin-bottom: 4px;">Chauffeur by the hour</h2>
+<p style="font-size: 16px; margin-bottom: 5px;">Hire an hourly chauffeur for your business or leisure needs.</p>
+<a href="https://www.transfeero.com/en/hourly-service/" title="Hourly Service" style="text-decoration: underline;  color: #212121;  font-weight: 700;  font-size: 16px;">Learn more </a>
+</div>
+<div class="col-12 col-lg-4" style="padding: 30px;">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo.jpg/dpr=2,w=348,h=150,fit=crop"
+                                 alt="City Rides"
+                                 style="border-radius: 10px; width:348px; height: 150px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/new_promo.jpg/dpr=2,w=348,h=150,fit=crop" alt="City Rides" style="border-radius: 10px; width:348px; height: 150px;">
+<h2 style="font-size: 25px;
+		 font-weight: 500;padding-bottom: 0px;
+		 margin-bottom: 4px;">City rides</h2>
+<p style="font-size: 16px; margin-bottom: 5px;">Get around the city at your convenience, anytime and anywhere, even for long distances.</p>
+<a href="https://www.transfeero.com/en/city-to-city-rides/" title="City rides" style="text-decoration: underline;  color: #212121;  font-weight: 700;  font-size: 16px;">Learn more</a>
+</div>
+</div>
+<div class="the_divider"></div>
+<div style="width:100%;position:relative">
+<div style="background-color: #fff; position: absolute; top:-103px; left: 50%;transform: translate(-50%, 0);">
+<noscript><img src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero"
+                                 style="width:90px; padding-right: 20px; padding-left: 20px"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero" style="width:90px; padding-right: 20px; padding-left: 20px"></div>
+</div>
+<div class="row" style="margin: 30px !important;">
+<div class="col-lg-6" style="  position: relative;">
+<div class="vertical_div">
+<h4 style="font-size: 35px">Easy online booking</h4>
+<p class="card_home_desc">
+Enjoy a hassle-free journey by booking your private chauffeur online—quick, simple, and ready whenever you are. Your ride, your rules, just a few clicks away.</p>
+</div>
+</div>
+<div class="col-lg-6">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/easy_online_booking.jpg/W=450,dpr=2,fit=cover"
+                                 class="pom_images pom_right" alt="easy online booking at Transfeero.com"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/easy_online_booking.jpg/W=450,dpr=2,fit=cover" class="lazyload pom_images pom_right" alt="easy online booking at Transfeero.com">
+</div>
+</div>
+<div class="row" style="margin: 30px !important;">
+<div class="col-lg-6 order-2 order-lg-1">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/clear_price-1.jpg/W=450,dpr=2,fit=cover"
+                                 style="float:left" alt="easy online booking at Transfeero.com"
+                                 class="pom_images pom_left"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/clear_price-1.jpg/W=450,dpr=2,fit=cover" style="float:left" alt="easy online booking at Transfeero.com" class="lazyload pom_images pom_left">
+</div>
+<div class="col-lg-6 order-1 order-lg-2">
+<div class="vertical_div">
+<h4 style="font-size: 35px">Clear price</h4>
+<p class="card_home_desc">
+At Transfeero, select your ideal ride and enjoy instant booking confirmation. Our transparent pricing policy guarantees no hidden fees—what you see is what you pay, ensuring a seamless travel experience.</p>
+</div>
+</div>
+</div>
+<div class="row" style="margin: 30px !important;">
+<div class="col-lg-6">
+<div class="vertical_div">
+<h4 style="font-size: 35px">Complimentary wait time</h4>
+<p class="card_home_desc">
+Experience seamless travel with our meet-and-greet service, provided with a complimentary one-hour wait time and efficient flight tracking for a stress-free journey. Enjoy the convenience at no extra cost.</p>
+</div>
+</div>
+<div class="col-lg-6">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/flight_traking-1.jpg/W=450,dpr=2,fit=cover"
+                                 alt="easy online booking at Transfeero.com" class="pom_images pom_right"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/flight_traking-1.jpg/W=450,dpr=2,fit=cover" alt="easy online booking at Transfeero.com" class="lazyload pom_images pom_right">
+</div>
+</div>
+<div class="row" style="margin: 30px !important;">
+<div class="col-lg-6 order-2 order-lg-1">
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/pro_driver.jpg/W=450,dpr=2,fit=cover"
+                                 style="float:left" alt="easy online booking at Transfeero.com"
+                                 class="pom_images  pom_left"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/10/pro_driver.jpg/W=450,dpr=2,fit=cover" style="float:left" alt="easy online booking at Transfeero.com" class="lazyload pom_images  pom_left">
+</div>
+<div class="col-lg-6 order-1 order-lg-2">
+<div class="vertical_div">
+<h4 style="font-size: 35px">Professional drivers</h4>
+<p class="card_home_desc">
+Our seasoned drivers, boasting local area expertise and savvy traffic insights, guarantee punctual journeys. Travel with peace of mind in the hands of licensed, insured professional chauffeurs.</p>
+</div>
+</div>
+</div>
+</div>
+<br/> <br/> <br/>
+<div class="the_divider"></div>
+<div style="width:100%;position:relative">
+<div style="background-color: #fff; position: absolute; top:-103px; left: 50%;transform: translate(-50%, 0);">
+<noscript><img src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero"
+                             style="width:90px; padding-right: 20px; padding-left: 20px"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero" style="width:90px; padding-right: 20px; padding-left: 20px"></div>
+</div>
+<br/>
+<center><span style="font-weight:500; font-size: 28px">Maximum comfort and safety for your trip</span>
+<br/><span style="font-size: 18px"> <i class="fas fa-certificate"></i> Licensed vehicles, professional drivers</span>
+</center>
+<br/>
+<main class="site-main" id="main" role="main">
+<div class="row" style="padding: 15px;">
+<div class="sectiona">
+<div class="cards-wrapper">
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/2837faa4-77b8-4865-a60f-069cabdb3200/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/2837faa4-77b8-4865-a60f-069cabdb3200/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/2837faa4-77b8-4865-a60f-069cabdb3200/w=187,dpr=1"
+                                             alt="Transfer Economy Taxi"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/2837faa4-77b8-4865-a60f-069cabdb3200/w=187,dpr=1" alt="Transfer Economy Taxi">
+</picture>
+<span class="car_title">Economy Taxi</span>
+<span class="car_card">Up to 3 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/572c8b94-838e-4f92-de97-c2a42fab1e00/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/572c8b94-838e-4f92-de97-c2a42fab1e00/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/572c8b94-838e-4f92-de97-c2a42fab1e00/w=187,dpr=1"
+                                             alt="Transfer Standard Class"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/572c8b94-838e-4f92-de97-c2a42fab1e00/w=187,dpr=1" alt="Transfer Standard Class">
+</picture>
+<span class="car_title">Standard Class</span>
+<span class="car_card">Up to 3 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/34c16f51-a36a-425c-a888-c7d64e97b900/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/34c16f51-a36a-425c-a888-c7d64e97b900/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/34c16f51-a36a-425c-a888-c7d64e97b900/w=187,dpr=1"
+                                             alt="Transfer First Class"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/34c16f51-a36a-425c-a888-c7d64e97b900/w=187,dpr=1" alt="Transfer First Class">
+</picture>
+<span class="car_title">First Class</span>
+<span class="car_card">Up to 3 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d56982a7-35dc-47ff-81d7-a80841319a00/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d56982a7-35dc-47ff-81d7-a80841319a00/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d56982a7-35dc-47ff-81d7-a80841319a00/w=187,dpr=1"
+                                             alt="Transfer SUV Limo Class"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d56982a7-35dc-47ff-81d7-a80841319a00/w=187,dpr=1" alt="Transfer SUV Limo Class">
+</picture>
+<span class="car_title">SUV</span>
+<span class="car_card">Up to 6 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d69a50d1-e56e-458b-3dfa-f8a7f30e0f00/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d69a50d1-e56e-458b-3dfa-f8a7f30e0f00/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d69a50d1-e56e-458b-3dfa-f8a7f30e0f00/w=187,dpr=1"
+                                             alt="Standard Van"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/d69a50d1-e56e-458b-3dfa-f8a7f30e0f00/w=187,dpr=1" alt="Standard Van">
+</picture>
+<span class="car_title">Van Standard</span>
+<span class="car_card">Up to 7 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/0fb9305d-7262-41b3-9416-03877bd80b00/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/0fb9305d-7262-41b3-9416-03877bd80b00/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/0fb9305d-7262-41b3-9416-03877bd80b00/w=187,dpr=1"
+                                             alt="Transfer First Van Class"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/0fb9305d-7262-41b3-9416-03877bd80b00/w=187,dpr=1" alt="Transfer First Van Class">
+</picture>
+<span class="car_title">Van First Class</span>
+<span class="car_card">Up to 6 Passengers</span>
+</div>
+<div class="card">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/835b35f9-c772-474e-8e46-7d2b90d60a00/w=187,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/835b35f9-c772-474e-8e46-7d2b90d60a00/w=187,dpr=1.5 1.5x" />
+<noscript><img class="blackw"
+                                             src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/835b35f9-c772-474e-8e46-7d2b90d60a00/w=187,dpr=1"
+                                             alt="Minibus"></noscript><img class="lazyload blackw" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/835b35f9-c772-474e-8e46-7d2b90d60a00/w=187,dpr=1" alt="Minibus">
+</picture>
+<span class="car_title">Minibus</span>
+<span class="car_card">Up to 16 Passengers</span>
+</div>
+</div>
+</div>
+</div>
+<div style="margin-top: 65px;margin-bottom: 45px;  background-color: #f9f5ef;  padding: 30px 14px 30px 14px;  border-radius: 20px;">
+<center><h3>How does it work</h3></center>
+<br/>
+<div class="row">
+<div class="col-lg-1"></div>
+<div class="col-lg">
+<div class="steppa">1</div>
+<div class="line_step"></div>
+<div class="titolo_step">Enter your route and select car</div>
+<div class="desc_step">Enter all the required data in the search field and then choose the desired vehicle</div>
+</div>
+<div class="col-lg">
+<div class="steppa">2</div>
+<div class="line_step"></div>
+<div class="titolo_step">Complete booking form</div>
+<div class="desc_step">Enter the details of the lead passenger, add extras if you wish. Proceed to payment and receive your voucher</div>
+</div>
+<div class="col-lg">
+<div class="steppa">3</div>
+<div class="line_step"></div>
+<div class="titolo_step">Meet your driver</div>
+<div class="desc_step">You will receive your driver's details 6 hours prior to pickup and he will be waiting for you on-site with a Name Sign. </div>
+<div class="steppaFIN"><i class="fas fa-check"></i></div>
+</div>
+<div class="col-lg-1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container" id="content">
+<div class="row">
+<div class="col-lg-12 content-area" id="primary">
+<br/>
+<center>
+<h3>Book a private transfer at over 1500 airports, stations and ports worldwide</h3>
+<br/></center><br/>
+<ul class="airport-list" style="padding-inline-start: 0px;">
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/milan-bergamo-airport-transfers-bgy/" title="Milan Bergamo Airport Transfers (BGY)">
+<div style="position:relative;">
+<div class="the_airP">Italy</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/07/Bergamo.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/07/Bergamo.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/07/Bergamo.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Milan Bergamo Airport Transfers (BGY)" alt="Milan Bergamo Airport Transfers (BGY)"
+                                             title="Milan Bergamo Airport Transfers (BGY)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/07/Bergamo.jpg/w=391,h=90,fit=cover,dpr=1" alt="Milan Bergamo Airport Transfers (BGY)" alt="Milan Bergamo Airport Transfers (BGY)" title="Milan Bergamo Airport Transfers (BGY)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Bergamo</h3>
+<div class="cut-text">Milan Bergamo Airport Transfers (BGY)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/athens-airport-transfers-ath/" title="Athens Airport Transfers (ATH)">
+<div style="position:relative;">
+<div class="the_airP">Greece</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/atene.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/atene.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/atene.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Athens Airport Transfers (ATH)" alt="Athens Airport Transfers (ATH)"
+                                             title="Athens Airport Transfers (ATH)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/atene.jpg/w=391,h=90,fit=cover,dpr=1" alt="Athens Airport Transfers (ATH)" alt="Athens Airport Transfers (ATH)" title="Athens Airport Transfers (ATH)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Athens</h3>
+<div class="cut-text">Athens Airport Transfers (ATH)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/houston-hobby-airport-transfers-hou/" title="Houston Hobby Airport Transfers (HOU)">
+<div style="position:relative;">
+<div class="the_airP">United States</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/03/houston-2.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/03/houston-2.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/03/houston-2.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Houston Hobby Airport Transfers (HOU)" alt="Houston Hobby Airport Transfers (HOU)"
+                                             title="Houston Hobby Airport Transfers (HOU)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/03/houston-2.jpg/w=391,h=90,fit=cover,dpr=1" alt="Houston Hobby Airport Transfers (HOU)" alt="Houston Hobby Airport Transfers (HOU)" title="Houston Hobby Airport Transfers (HOU)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Houston</h3>
+<div class="cut-text">Houston Hobby Airport Transfers (HOU)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/thessaloniki-flughafentransfers-skg/" title="Thessaloniki Airport Transfers (SKG)">
+<div style="position:relative;">
+<div class="the_airP">Greece</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/05/Thessaloniki.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/05/Thessaloniki.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/05/Thessaloniki.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Thessaloniki Airport Transfers (SKG)" alt="Thessaloniki Airport Transfers (SKG)"
+                                             title="Thessaloniki Airport Transfers (SKG)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/05/Thessaloniki.jpg/w=391,h=90,fit=cover,dpr=1" alt="Thessaloniki Airport Transfers (SKG)" alt="Thessaloniki Airport Transfers (SKG)" title="Thessaloniki Airport Transfers (SKG)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Thessaloniki</h3>
+<div class="cut-text">Thessaloniki Airport Transfers (SKG)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/nice-cote-dazur-airport-transfers-nce/" title="Nice Côte d&#8217;Azur Airport Transfers (NCE)">
+<div style="position:relative;">
+<div class="the_airP">France</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/06/nice.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/06/nice.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/06/nice.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Nice Côte d&#8217;Azur Airport Transfers (NCE)" alt="Nice Côte d&#8217;Azur Airport Transfers (NCE)"
+                                             title="Nice Côte d&#8217;Azur Airport Transfers (NCE)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/06/nice.jpg/w=391,h=90,fit=cover,dpr=1" alt="Nice Côte d&#8217;Azur Airport Transfers (NCE)" alt="Nice Côte d&#8217;Azur Airport Transfers (NCE)" title="Nice Côte d&#8217;Azur Airport Transfers (NCE)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Nice</h3>
+<div class="cut-text">Nice Côte d&#8217;Azur Airport Transfers (NCE)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/faro-airport-transfers-fao/" title="Faro Airport Transfers (FAO)">
+<div style="position:relative;">
+<div class="the_airP">Portugal</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/05/faro.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/05/faro.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/05/faro.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Faro Airport Transfers (FAO)" alt="Faro Airport Transfers (FAO)"
+                                             title="Faro Airport Transfers (FAO)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/05/faro.jpg/w=391,h=90,fit=cover,dpr=1" alt="Faro Airport Transfers (FAO)" alt="Faro Airport Transfers (FAO)" title="Faro Airport Transfers (FAO)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Faro</h3>
+<div class="cut-text">Faro Airport Transfers (FAO)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/new-york-jfk-airport-tranfsers/" title="New York JFK Airport Transfers (JFK)">
+<div style="position:relative;">
+<div class="the_airP">United States</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="New York JFK Airport Transfers (JFK)" alt="New York JFK Airport Transfers (JFK)"
+                                             title="New York JFK Airport Transfers (JFK)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/08/home-2.jpg/w=391,h=90,fit=cover,dpr=1" alt="New York JFK Airport Transfers (JFK)" alt="New York JFK Airport Transfers (JFK)" title="New York JFK Airport Transfers (JFK)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">New York</h3>
+<div class="cut-text">New York JFK Airport Transfers (JFK)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/madrid-airport-transfers-mad/" title="Madrid Airport Transfers (MAD)">
+<div style="position:relative;">
+<div class="the_airP">Spain</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/madrid.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/madrid.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/madrid.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Madrid Airport Transfers (MAD)" alt="Madrid Airport Transfers (MAD)"
+                                             title="Madrid Airport Transfers (MAD)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2020/06/madrid.jpg/w=391,h=90,fit=cover,dpr=1" alt="Madrid Airport Transfers (MAD)" alt="Madrid Airport Transfers (MAD)" title="Madrid Airport Transfers (MAD)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Madrid</h3>
+<div class="cut-text">Madrid Airport Transfers (MAD)</div>
+</div>
+</a>
+</li>
+<li class="airportsli" style="padding: 0px; box-shadow: 0px 6px 12px -3px rgba(0,0,0,0.1); border: 0px">
+<a href="https://www.transfeero.com/en/naha-airport-transfers-oka/" title="Okinawa Naha Airport Transfers (OKA)">
+<div style="position:relative;">
+<div class="the_airP">Japan</div>
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/12/OKINAWA.jpg/w=391,h=90,fit=cover,dpr=1, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/12/OKINAWA.jpg/w=391,h=90,fit=cover,dpr=1.5 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/12/OKINAWA.jpg/w=391,h=90,fit=cover,dpr=1"
+                                             alt="Okinawa Naha Airport Transfers (OKA)" alt="Okinawa Naha Airport Transfers (OKA)"
+                                             title="Okinawa Naha Airport Transfers (OKA)"
+                                             style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2023/12/OKINAWA.jpg/w=391,h=90,fit=cover,dpr=1" alt="Okinawa Naha Airport Transfers (OKA)" alt="Okinawa Naha Airport Transfers (OKA)" title="Okinawa Naha Airport Transfers (OKA)" style=" border-top-right-radius: 5px; border-top-left-radius: 5px; width: 100%; height:90px;">
+</picture>
+</div>
+<div style="padding: 10px">
+<h3 style="font-size: 22px;">Naha</h3>
+<div class="cut-text">Okinawa Naha Airport Transfers (OKA)</div>
+</div>
+</a>
+</li>
+</ul>
+<br/>
+</main>
+<br/>
+<div class="the_divider"></div>
+<div style="width:100%;position:relative">
+<div style="background-color: #fff; position: absolute; top:-103px; left: 50%;transform: translate(-50%, 0);">
+<noscript><img src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero"
+                         style="width:90px; padding-right: 20px; padding-left: 20px"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/wp-content/themes/understrap-master/q.svg" alt="Transfeero" style="width:90px; padding-right: 20px; padding-left: 20px"></div>
+</div>
+<br/>
+<div class="gtco-testimonials">
+<center><h3 style="font-size: 38px">Reviews</h3></center>
+<br/><br/>
+<div id="widget_hide_links">
+<div class="trustpilot-widget" data-locale="en-GB" data-template-id="5406e65db0d04a09e042d5fc" data-businessunit-id="5eabf861f3aa940001176995" data-style-height="28px" data-style-width="100%" data-theme="light" data-font-family="Roboto">
+<a href="https://uk.trustpilot.com/review/transfeero.com" target="_blank" rel="noopener">Trustpilot</a>
+</div>
+</div>
+<br/><br/>
+<div class="trustpilot-widget" data-review-languages="en" data-locale="en-GB" data-template-id="54ad5defc6454f065c28af8b" data-businessunit-id="5eabf861f3aa940001176995" data-style-height="240px" data-style-width="100%" data-theme="light" data-stars="4,5" data-font-family="Roboto">
+<a href="https://uk.trustpilot.com/review/transfeero.com" target="_blank" rel="noopener">Trustpilot</a>
+</div>
+</div>
+<br/>
+<br/>
+<hr>
+</div>
+</div>
+</div>
+<div class="container" id="content" style="margin-top:50px">
+<div class="row">
+<div class="col-lg-6">
+<h2 style="font-weight: 300; font-size: 45px;">Take it easy!</h2>
+<span style="font-weight: 600; font-size: 30px;">Download our App</span><br/>
+<span style="font-weight: 400; font-size: 20px;">Book, change date and time, or cancel rides.</span>
+<br/><br/>
+<a href="https://apps.apple.com/us/app/transfeero/id1511485835" target="_blank" title="Download from the app store"><noscript><img src="https://www.transfeero.com/mainjs/apple_store.svg"
+                                                        alt="Download from the app store" style="width: 145px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/apple_store.svg" alt="Download from the app store" style="width: 145px;"></a>
+<a href="https://play.google.com/store/apps/details?id=com.sicilyaction.transfeero" target="_blank" title="Download from the play store"><noscript><img src="https://www.transfeero.com/mainjs/play_store.svg"
+                                                         alt="Download from the play store" style="width: 145px;"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/play_store.svg" alt="Download from the play store" style="width: 145px;"> </a>
+<br/><br/>
+</div>
+<div class="col-lg-6">
+<picture>
+<source data-srcset="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/12/wowmoxk.png/dpr=1,w=424, https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/12/wowmoxk.png/dpr=1.5,w=424 1.5x" />
+<noscript><img src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/12/wowmoxk.png/dpr=1,w=424"
+                     alt="Transfeero APP"
+                     style="float:right; position:relative; margin-bottom: -45px; z-index:-999; width: 424px"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2022/12/wowmoxk.png/dpr=1,w=424" alt="Transfeero APP" style="float:right; position:relative; margin-bottom: -45px; z-index:-999; width: 424px">
+</picture>
+</div>
+</div>
+</div>
+<script data-jetpack-boost="ignore" type="application/ld+json">
+    {
+"@context": "http://schema.org",
+"@type": "Product",
+"brand": {
+  "@type": "Brand",
+  "name": "Transfeero"
+},
+"name": "Transfeero: Reliable airport transfers",
+              "description" : "Book a private transfer at over 1500 airports, stations and ports worldwide",
+              "image": [
+    "https://www.transfeero.com/wp-content/uploads/2020/05/1x1.jpg",
+    "https://www.transfeero.com/wp-content/uploads/2020/05/4x3.jpg",
+    "https://www.transfeero.com/wp-content/uploads/2020/05/16x9.jpg"
+   ],
+              "aggregateRating": {
+                  "@type" : "AggregateRating",
+                  "ratingValue": "4.9",
+                  "reviewCount" : "22945",
+                  "bestRating": 5,
+                  "worstRating": 1
+              }
+          }
+</script>
+
+<div class="wrapper" id="wrapper-footer-full">
+<div class="container" id="footer-full-content" tabindex="-1">
+<div class="row">
+<div id="text-3" class="footer-widget widget_text widget-count-4 col-lg-3"> <div class="textwidget">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_white.svg" alt="Transfeero" style="max-width:255px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_white.svg" alt="Transfeero" style="max-width:255px">
+<br/><br/>
+<h7><i class="fas fa-user-clock"></i> Customer service 24/7 </h7>
+<span style="display:block; position:relative; z-index: 9; font-size: 23px; cursor: pointer; margin: 9px 0px 8px 0px;" onclick="Intercom('showNewMessage');"><i class="fas fa-comments-alt fw"></i> Start a chat</span>
+<span style="position:absolute; width: 50%; border-bottom: 10px solid rgb(249 180 66 / 23%); z-index: 1; margin-top: -21px;"></span>
+<div style="font-weight: 900; margin-top:20px">AMERICA - 24/7<div style="position:relative; border-bottom: 2px solid #363636; width: 90%"></div></div>
+<div class="row" style="padding: 0px; margin: 0px !important">
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: left; font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/US.svg" alt="English Us" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/US.svg" alt="English Us" style="width: 16px; margin-bottom:3px"> US EAST
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right; font-size: 14px">
++1 929 416 3724
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: left; font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/US.svg" alt="English Us" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/US.svg" alt="English Us" style="width: 16px; margin-bottom:3px"> US WEST
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right; font-size: 14px">
++1 562 269 3528
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: left; font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/CA.svg" alt="English Canada" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/CA.svg" alt="English Canada" style="width: 16px; margin-bottom:3px"> CANADA
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right; font-size: 14px">
++1 365 654 6440
+</div>
+</div>
+<div style="font-weight: 900; margin-top:10px">OCEANIA - 24/7<div style="position:relative; border-bottom: 2px solid #363636; width: 90%"></div></div>
+<div class="row" style="padding: 0px; margin: 0px !important">
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: left;font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/AU.svg" alt="English Us" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/AU.svg" alt="English Us" style="width: 16px; margin-bottom:3px"> AUSTRALIA
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right;font-size: 14px">
++61 1300 297 730
+</div>
+</div>
+<div style="font-weight: 900; margin-top:10px">EUROPE - 24/7<div style="position:relative; border-bottom: 2px solid #363636; width: 90%"></div></div>
+<div class="row" style="padding: 0px; margin: 0px !important">
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: left; font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/GB.svg" alt="English Uk" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/GB.svg" alt="English Uk" style="width: 16px; margin-bottom:3px"> UNITED KINGDOM
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right; font-size: 14px">
++44 20 4586 9665
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px;  text-algin: left; font-size: 14px">
+<noscript><img decoding="async" src="https://www.transfeero.com/mainjs/falgs_new/IT.svg" alt="Italiano" style="width: 16px; margin-bottom:3px"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/falgs_new/IT.svg" alt="Italiano" style="width: 16px; margin-bottom:3px"> ITALY
+</div>
+<div class="col-6" style="padding: 5px 0px 5px 0px; text-algin: right; font-size: 14px">
++39 06 9450 5426
+</div>
+<div style="font-weight: 900; margin-top:10px; display:block">GENERAL INFO<div style="position:relative; border-bottom: 2px solid #363636; width: 90%"></div> <a href="/cdn-cgi/l/email-protection#ceeea7a0a8a18ebabcafa0bda8ababbca1e0ada1a3"><span class="__cf_email__" data-cfemail="a7cec9c1c8e7d3d5c6c9d4c1c2c2d5c889c4c8ca">[email&#160;protected]</span></a></div>
+</div>
+</div>
+</div><div id="text-4" class="footer-widget widget_text widget-count-4 col-lg-3"> <div class="textwidget"><span style="font-size: 1.5rem;">Top Airports</span><div style="font-weight: 400;line-height: 31px;"><a href="https://www.transfeero.com/en/corfu-international-airport-transfers-cfu/" title="Corfu Airport">Corfu Airport<br/></a><a href="https://www.transfeero.com/en/florence-peretola-airport-transfers-flr/" title="Florence Airport">Florence Airport<br/></a><a href="https://www.transfeero.com/en/faro-airport-transfers-fao/" title="Faro Airport">Faro Airport<br/></a><a href="https://www.transfeero.com/en/francisco-sa-carneiro-airport-transfers-opo/" title="Porto Airport">Porto Airport<br/></a><a href="https://www.transfeero.com/en/london-heathrow-airport-transfers-lhr/" title="London Heathrow Airport">London Heathrow Airport<br/></a><a href="https://www.transfeero.com/en/rome-fiumicino-airport-transfers-fco/" title="Rome Fiumicino Airport">Rome Fiumicino Airport<br/></a><a href="https://www.transfeero.com/en/hamburg-airport-transfers-ham/" title="Hamburg Airport">Hamburg Airport<br/></a><a href="https://www.transfeero.com/en/new-york-laguardia-airport-transfers-lga/" title="New York LaGuardia Airport">New York LaGuardia Airport<br/></a><a href="https://www.transfeero.com/en/dubai-airport-transfers-dxb/" title="Dubai Airport">Dubai Airport<br/></a><a href="https://www.transfeero.com/en/new-york-jfk-airport-tranfsers/" title="New York JFK Airport">New York JFK Airport<br/></a><a href="https://www.transfeero.com/en/toronto-pearson-international-airport-transfers-yyz/" title="Toronto Pearson Airport">Toronto Pearson Airport<br/></a><a href="https://www.transfeero.com/en/frankfurt-am-main-airport-transfers-fra/" title="Frankfurt Airport">Frankfurt Airport<br/></a><a href="https://www.transfeero.com/en/munich-airport-transfers-muc/" title="Munich Airport">Munich Airport<br/></a><a href="https://www.transfeero.com/en/lisbon-portela-airport-transfers-lis/" title="Lisbon Airport">Lisbon Airport<br/></a><a href="https://www.transfeero.com/en/honolulu-inouye-airport-transfers-hnl/" title="Honolulu Inouye Airport">Honolulu Inouye Airport<br/></a></div>
+</div>
+</div><div id="text-2" class="footer-widget widget_text widget-count-4 col-lg-3"> <div class="textwidget">
+<span style="font-size: 1.5rem;">Transfeero Services</span>
+<div style="font-weight: 400;line-height: 31px;">
+<a href="https://www.transfeero.com/en/" title="Airport Transfers">Airport Transfers</a><br/>
+<a href="https://www.transfeero.com/en/city-to-city-rides/" title="City rides">City rides</a><br/>
+<a href="https://www.transfeero.com/en/hourly-service/" title="Hourly Service">Hourly Service</a><br/>
+<a href="https://www.transfeero.com/en/business-solution/" title="Business Solutions">Business Solutions</a><br/>
+<a href="javascript:void(Intercom('showSpace', 'help'))" title="Help Centre">Help Centre</a><br/>
+<a rel="noopener noreferrer" style="color: #a5a5a5!important" href="https://www.transfeero.com/en/category/travel-blog/" title="Travel Blog Transfeero">Travel Blog</a>
+</div>
+<br/>
+<span style="font-size: 1.5rem;">Company</span>
+<div style="font-weight: 400;line-height: 31px;">
+<a href="https://www.transfeero.com/en/terms-conditions/" title="Terms & Conditions">Terms & Conditions</a><br/>
+<a href="https://www.iubenda.com/privacy-policy/91432953" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy" style="color: #525252">Privacy Policy</a><br/>
+<a href="https://www.transfeero.com/en/travel-agencies/" title="For Travel Agencies">For Travel Agencies</a><br/>
+<a rel="noopener noreferrer" style="padding-right:10px; color: #a5a5a5!important" href="https://www.transfeero.com/en/become-a-partner/" title="Become a partner"> Become a partner</a><br/>
+<a rel="noopener noreferrer" style="color: #a5a5a5!important" href="https://control.transfeero.com/" title="Partner login" target="_blank"> Partner login</a><br/>
+<a rel="noopener noreferrer" style="color: #a5a5a5!important" href="https://www.instagram.com/transfeero/" title="Instagram Transfeero" target="_blank">Instagram</a><br/>
+<a href="https://www.transfeero.com/en/onemile-loyalty-program/" target="_blank" title="Onemile" rel="noopener"><noscript><img decoding="async" src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2024/04/onemile_white.png/dpr=2,w=80" style="width:80px; cursor: pointer" alt="Onemile"></noscript><img class="lazyload" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://imagedelivery.net/IwZOeeGEmDj8EVSTRphTwA/www.transfeero.com/2024/04/onemile_white.png/dpr=2,w=80" style="width:80px; cursor: pointer" alt="Onemile">™</a><br/>
+</div>
+</div>
+</div><div id="wpb_widget-2" class="footer-widget widget_wpb_widget widget-count-4 col-lg-3"><h3 class="widget-title"><i class="fas fa-globe-europe"></i> Language</h3>
+<select class="form-control form-control-md" style="margin-top: 20px;background-color: #525252;color: #f7f7f7;border: 1px solid #525252;" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+<option value="#">Select Language</option>
+<option value="https://www.transfeero.com/en/">English</option>
+<option value="https://www.transfeero.com/it/">Italiano</option>
+<option value="https://www.transfeero.com/de/">Deutsch</option>
+<option value="https://www.transfeero.com/fr/">Français</option>
+<option value="https://www.transfeero.com/es/">Español</option>
+</select>
+<br/>
+<span style="font-size: 1.5rem;">Why us? </span>
+<div style="font-weight: 400; line-height: 31px; color: #a5a5a5!important">
+<i class="fas fa-check"></i> Quick reservation <br/>
+<i class="fas fa-check"></i> Professional Drivers<br/>
+<i class="fas fa-check"></i> No hidden fees <br/>
+</div>
+<br/>
+<div style="font-weight: 400; line-height: 31px;">
+</div>
+<div id="widget_hide_links">
+<div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="5eabf861f3aa940001176995" data-style-height="150px" data-style-width="100%" data-theme="dark" data-font-family="Roboto">
+<a href="https://uk.trustpilot.com/review/transfeero.com" target="_blank" rel="noopener">Trustpilot</a>
+</div>
+</div>
+<div style="display: inline-block; margin-top: 7px; margin-bottom: 7px; margin-right: 8px">
+<noscript><img src="https://www.transfeero.com/mainjs/svg/card3/visa.svg" alt="visa" style="width:51px; filter: grayscale(100%) invert(100%);"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/card3/visa.svg" alt="visa" style="width:51px; filter: grayscale(100%) invert(100%);">
+<noscript><img src="https://www.transfeero.com/mainjs/svg/card3/mastercard.svg" alt="mastercard" style="margin-left: 12px; width:45px; filter: grayscale(100%) invert(100%);"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/card3/mastercard.svg" alt="mastercard" style="margin-left: 12px; width:45px; filter: grayscale(100%) invert(100%);">
+<noscript><img src="https://www.transfeero.com/mainjs/svg/card3/american-express.svg" alt="amex" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%);"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/card3/american-express.svg" alt="amex" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%);">
+<noscript><img src="https://www.transfeero.com/mainjs/svg/card3/paypal.svg" alt="PayPal" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%); margin-rigth: 14px"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/card3/paypal.svg" alt="PayPal" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%); margin-rigth: 14px">
+</div>
+<div style="display: inline-block; margin-top: 7px; margin-bottom: 7px;"> <noscript><img src="https://datacenter.transfeero.com/checkout/cards/apay.svg" alt="Apple Pay" style=" width:51px; filter: grayscale(100%) invert(70%);"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://datacenter.transfeero.com/checkout/cards/apay.svg" alt="Apple Pay" style=" width:51px; filter: grayscale(100%) invert(70%);">
+<noscript><img src="https://datacenter.transfeero.com/checkout/cards/gpay.svg" alt="Google Pay" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%);"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://datacenter.transfeero.com/checkout/cards/gpay.svg" alt="Google Pay" style="margin-left: 12px; width:51px; filter: grayscale(100%) invert(100%);">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper" id="wrapper-footer" style="background-color: #1d1d1d">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<footer class="site-footer" id="colophon">
+<div class="row" style="margin:0px">
+<div class="col-sm-4 footal">
+<noscript><img src="https://www.transfeero.com/mainjs/svg/foot/vbv.svg" alt="Verified by Visa" class="blackw" style="width: 60px; margin-right: 20px; margin-top: -7px;"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/foot/vbv.svg" alt="Verified by Visa" class="lazyload blackw" style="width: 60px; margin-right: 20px; margin-top: -7px;"> <noscript><img src="https://www.transfeero.com/mainjs/svg/foot/msc.svg" alt="Secure Code by Mastercard" class="blackw" style="width: 75px; margin-right:16px;"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/foot/msc.svg" alt="Secure Code by Mastercard" class="lazyload blackw" style="width: 75px; margin-right:16px;"> <noscript><img src="https://www.transfeero.com/mainjs/svg/foot/safekey2.svg" alt="Safe Key by American Express" class="blackw" style="width: 87px; margin-top: 2px;"></noscript><img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://www.transfeero.com/mainjs/svg/foot/safekey2.svg" alt="Safe Key by American Express" class="lazyload blackw" style="width: 87px; margin-top: 2px;">
+</div>
+<div class="col-sm-8 footar" style="color: #e6e6e6; font-size: 14px; padding-top:6px">
+2024 © <i class="fa-kit fa-transfeero"></i> TRANSFEERO™ | All right reserved | IT05304190878 | D.D.S. n° 3451S7 - <a style="color:#fff" href="https://press.transfeero.com/" target="_blank" title="Press"><i class="fa-light fa-newspaper"></i> Press</a> | <i class="fa-light fa-server"></i> n1<br/>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</div>
+<noscript><style>.lazyload{display:none;}</style></noscript>
+<div id="book_action_mobile" class="book_action_mobile_hide">
+<div class="row" style="margin-top: 15px !important">
+<div class="col-6" style="text-align: left">
+<img src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_black.svg" data-src="https://www.transfeero.com/mainjs/logo/svg/logo_transfeero_final_black.svg" id="the_main_logo" alt="Transfeero" class="the_logo" style="margin-top: 0px !important; margin-left: -4px !important;">
+</div>
+<div class="col-6" style="text-align: right">
+<button class="btn btn-primary btn-sm booknowa" style="box-shadow: unset;">Book now</button>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'88660fc4a8ab375d',t:'MTcxNjE0MjQxMy41ODMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></html>
+<script type="text/javascript">
+	var _iub = _iub || [];
+	_iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableFadp":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"anchored-bottom-left","gdprAppliesGlobally":false,"lang":"en","lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":1871768,"cookiePolicyId":91432953,"footer":{"btnCaption":"Save and continue"}, "banner":{ "acceptButtonCaptionColor":"white","acceptButtonColor":"#f9b442","acceptButtonDisplay":true,"backgroundColor":"white","closeButtonRejects":true,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"explicitWithdrawal":true,"fontSizeBody":"13px","fontSizeCloseButton":"13px","listPurposes":true,"position":"float-bottom-center","rejectButtonDisplay":true,"showPurposesToggles":true,"textColor":"black" }};
+	</script><script type="text/javascript" src="//cs.iubenda.com/sync/1871768.js"></script><script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script><script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KL5GXF2');</script><script src="https://www.transfeero.com/cdn/common/mainjs/js/jquery.min.js"></script><script src="https://www.transfeero.com/cdn/common/mainjs/js/legacy.js"></script><script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=default%2CString.prototype.repeat%2CArray.prototype.find%2CArray.prototype.findIndex%2CMath.trunc%2CMath.sign%2CObject.is"></script><script async src="https://www.googletagmanager.com/gtag/js?id=AW-644742356"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-644742356', {'allow_enhanced_conversions':true});
+</script><script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script><script type="text/javascript" id="wpml-cookie-js-extra">
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script><script type="text/javascript" src="https://www.transfeero.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?m=1714110412"></script><script src="https://kit.fontawesome.com/67df8bf3e8.js" crossorigin="anonymous"></script><script src="https://www.transfeero.com/mainjs/js/jquery2.min.js"></script><script>
+        function loadJS(src, callback) {
+            var s = document.createElement('script');
+            s.src = src;
+            s.async = true;
+            s.onreadystatechange = s.onload = function () {
+                var state = s.readyState;
+                if (!callback.done && (!state || /loaded|complete/.test(state))) {
+                    callback.done = true;
+                    callback();
+                }
+            };
+            document.getElementsByTagName('head')[0].appendChild(s);
+        }
+
+        loadJS('https://www.transfeero.com/mainjs/flatpicker/flatpickr.min.js', function () {
+            // put your code here to run after script is loaded
+
+            !function (e, o) {
+                "object" == typeof exports && "undefined" != typeof module ? o(exports) : "function" == typeof define && define.amd ? define(["exports"], o) : o((e = "undefined" != typeof globalThis ? globalThis : e || self).it = {})
+            }(this, function (e) {
+                "use strict";
+                var o = "undefined" != typeof window && void 0 !== window.flatpickr ? window.flatpickr : {l10ns: {}},
+                    n = {
+                        weekdays: {
+                            shorthand: ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"],
+                            longhand: ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"]
+                        },
+                        months: {
+                            shorthand: ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"],
+                            longhand: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
+                        },
+                        firstDayOfWeek: 1,
+                        ordinal: function () {
+                            return "°"
+                        },
+                        rangeSeparator: " al ",
+                        weekAbbreviation: "Se",
+                        scrollTitle: "Scrolla per aumentare",
+                        toggleTitle: "Clicca per cambiare",
+                        time_24hr: !0
+                    };
+                o.l10ns.it = n;
+                o = o.l10ns;
+                e.Italian = n, e.default = o, Object.defineProperty(e, "__esModule", {value: !0})
+            });
+
+            !function (e, r) {
+                "object" == typeof exports && "undefined" != typeof module ? r(exports) : "function" == typeof define && define.amd ? define(["exports"], r) : r((e = "undefined" != typeof globalThis ? globalThis : e || self).fr = {})
+            }(this, function (e) {
+                "use strict";
+                var r = "undefined" != typeof window && void 0 !== window.flatpickr ? window.flatpickr : {l10ns: {}},
+                    n = {
+                        firstDayOfWeek: 1,
+                        weekdays: {
+                            shorthand: ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"],
+                            longhand: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
+                        },
+                        months: {
+                            shorthand: ["janv", "févr", "mars", "avr", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"],
+                            longhand: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+                        },
+                        ordinal: function (e) {
+                            return 1 < e ? "" : "er"
+                        },
+                        rangeSeparator: " au ",
+                        weekAbbreviation: "Sem",
+                        scrollTitle: "Défiler pour augmenter la valeur",
+                        toggleTitle: "Cliquer pour basculer",
+                        time_24hr: !0
+                    };
+                r.l10ns.fr = n;
+                r = r.l10ns;
+                e.French = n, e.default = r, Object.defineProperty(e, "__esModule", {value: !0})
+            });
+
+            !function (e, n) {
+                "object" == typeof exports && "undefined" != typeof module ? n(exports) : "function" == typeof define && define.amd ? define(["exports"], n) : n((e = "undefined" != typeof globalThis ? globalThis : e || self).de = {})
+            }(this, function (e) {
+                "use strict";
+                var n = "undefined" != typeof window && void 0 !== window.flatpickr ? window.flatpickr : {l10ns: {}},
+                    t = {
+                        weekdays: {
+                            shorthand: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
+                            longhand: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"]
+                        },
+                        months: {
+                            shorthand: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+                            longhand: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+                        },
+                        firstDayOfWeek: 1,
+                        weekAbbreviation: "KW",
+                        rangeSeparator: " bis ",
+                        scrollTitle: "Zum Ändern scrollen",
+                        toggleTitle: "Zum Umschalten klicken",
+                        time_24hr: !0
+                    };
+                n.l10ns.de = t;
+                n = n.l10ns;
+                e.German = t, e.default = n, Object.defineProperty(e, "__esModule", {value: !0})
+            });
+
+            !function (e, o) {
+                "object" == typeof exports && "undefined" != typeof module ? o(exports) : "function" == typeof define && define.amd ? define(["exports"], o) : o((e = "undefined" != typeof globalThis ? globalThis : e || self).es = {})
+            }(this, function (e) {
+                "use strict";
+                var o = "undefined" != typeof window && void 0 !== window.flatpickr ? window.flatpickr : {l10ns: {}},
+                    n = {
+                        weekdays: {
+                            shorthand: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+                            longhand: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+                        },
+                        months: {
+                            shorthand: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+                            longhand: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+                        },
+                        ordinal: function () {
+                            return "º"
+                        },
+                        firstDayOfWeek: 1,
+                        rangeSeparator: " a ",
+                        time_24hr: !0
+                    };
+                o.l10ns.es = n;
+                o = o.l10ns;
+                e.Spanish = n, e.default = o, Object.defineProperty(e, "__esModule", {value: !0})
+            });
+
+            let today = new Date();
+            let today_day = new Date();
+            today.setDate(today.getDate() + 2);
+
+            var flatpickrInstance = $("#p_date").flatpickr({
+                enableTime: false,
+                altInput: true,
+                dateFormat: "Y-m-d",
+                altFormat: "D, M j, Y",
+                locale: "en",
+                minDate: "today",
+                defaultDate: today,
+                disableMobile: "false",
+                onChange: function (selectedDates, dateStr, instance) {
+                    //...
+
+                    flatpickrInstance_return.set('minDate', dateStr);
+                    flatpickrInstance_return.setDate(dateStr);
+                    $("#dateT").val(dateStr);
+                    $("#no_data").hide();
+                },
+                onReady: function (selectedDates, dateStr, instance) {
+                    $("#dateT").val(dateStr);
+                },
+                onOpen: [
+                    function (selectedDates, dateStr, instance) {
+                        $("#dateT").val(dateStr);
+                    },
+                    function (selectedDates, dateStr, instance) {
+                        $("#dateT").val(dateStr);
+                    }
+                ],
+                onClose: function (selectedDates, dateStr, instance) {
+                    // ...
+                }
+            });
+
+            var flatpickrInstance_time = $("#p_time").flatpickr({
+                enableTime: true,
+                noCalendar: true,
+                dateFormat: "H:i",
+                time_24hr: false,
+                defaultDate: "13:45",
+                altInput: true,
+                altFormat: "h:i K",
+                onChange: function (selectedDates, dateStr, instance) {
+                    $("#timeT").val(dateStr);
+                },
+                onReady: function (selectedDates, dateStr, instance) {
+                    $("#timeT").val(dateStr);
+                },
+                onOpen: [
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    },
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    }
+                ],
+                onClose: function (selectedDates, dateStr, instance) {
+                    // ...
+                }
+            });
+
+
+            var flatpickrInstance_return = $("#d_date").flatpickr({
+                enableTime: false,
+                altInput: true,
+                dateFormat: "Y-m-d",
+                altFormat: "D, M j, Y",
+                locale: "en",
+                minDate: today_day,
+                defaultDate: today,
+                disableMobile: "false",
+                onChange: function (selectedDates, dateStr, instance) {
+                    $("#date_rT").val(dateStr);
+                    $("#no_dataR").hide();
+                },
+                onReady: function (selectedDates, dateStr, instance) {
+
+                },
+                onOpen: [
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    },
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    }
+                ],
+                onClose: function (selectedDates, dateStr, instance) {
+                    // ...
+                }
+            });
+
+            var flatpickrInstance_time_return = $("#d_time").flatpickr({
+                enableTime: true,
+                noCalendar: true,
+                dateFormat: "H:i",
+                time_24hr: false,
+                defaultDate: "13:45",
+                altInput: true,
+                altFormat: "h:i K",
+                onChange: function (selectedDates, dateStr, instance) {
+                    $("#time_rT").val(dateStr);
+                },
+                onReady: function (selectedDates, dateStr, instance) {
+
+                },
+                onOpen: [
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    },
+                    function (selectedDates, dateStr, instance) {
+                        //...
+                    }
+                ],
+                onClose: function (selectedDates, dateStr, instance) {
+                    // ...
+                }
+            });
+
+
+            $("#add_reurn").click(function () {
+                $(this).hide();
+                $("#container_d_date").show();
+                $("#removereturn").show();
+
+                var a = $("#d_date").val();
+                var b = $("#d_time").val();
+
+                $("#date_rT").val(a);
+                $("#time_rT").val(b)
+
+            });
+
+            $("#removereturn").click(function () {
+                $("#add_reurn").show();
+                $("#container_d_date").hide();
+                $("#removereturn").hide();
+
+                $("#date_rT").val("");
+                $("#time_rT").val("")
+            });
+
+
+        });
+
+
+        $("#sendButton").click(function (event) {
+
+
+            if (!$("#address_start").val()) {
+                $("#no_start").show();
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                $("#no_start").hide();
+            }
+
+
+            if (!$("#address_end").val()) {
+                $("#no_end").show();
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                $("#no_end").hide();
+            }
+
+
+            if ($("#dateT").val() == null || $("#dateT").val() == '') {
+                $("#no_data").show();
+                $("#no_data").css('display', 'inline-block');
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                $("#no_data").hide();
+            }
+
+            if ($("#date_rT").val() == '' && $("#time_rT").val() != '') {
+                $("#no_dataR").show();
+                $("#no_dataR").css('display', 'inline-block');
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                $("#no_dataR").hide();
+            }
+
+        });
+
+
+        $('#cercaform').submit(function (e) {
+
+            $('#sendButton').prop('disabled', true);
+            $('#sendButton').css('background-color', '#e8c58a');
+            $('#sendButton').css('border-bottom', '3px solid #b79863');
+            $('#sendButton').html('<i class="fas fa-spinner fa-spin" style="color:#fff"></i>');
+
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+
+            var form = $(this);
+
+
+            $.ajax({
+                type: "POST",
+                url: "https://api.transfeero.com/v3/quote_request_v4",
+                data: form.serialize(), // serializes the form's elements.
+                dataType: 'json',
+                statusCode: {
+                    200: function (response) {
+
+                    },
+                    201: function (response) {
+
+                    },
+                    404: function (response) {
+
+                        var url = "https://www.transfeero.com/en/?noroute";
+                        window.location.replace(url);
+                    }
+                },
+                success: function (data) {
+                    var url = 'https://booking.transfeero.com/';
+                    var hash = data.request_hash;
+                    window.location.href = url + '?hash=' + hash + '&l=en';
+                },
+                error: function (data) {
+
+                    var url = "https://www.transfeero.com/en/?noroute";
+                    window.location.replace(url);
+
+                }
+            });
+
+
+        });
+
+
+    </script><script>
+    function initMap() {
+    }
+</script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpFrXLDB9iYppszbbEWkA7qHql-jNFOCw&libraries=geometry,places&language=en&callback=initMap"></script><script type="text/javascript">
+    window.lang_handle = 'Cancel';
+    window.current_lacation_handle = 'Current location';
+    window.wait_current_location = ' Please wait, getting current location';
+    window.no_location = ' No location found';
+    window.popular_text = '<i class="fa-solid fa-fire"></i> Popular airports, stations and ports';
+</script><script src="https://transfeero.com/mainjs/new_autocomplete_sys.js?vers=56"></script><script src="https://transfeero.com/mainjs/mobile_input.js?vers=65"></script><script src="https://transfeero.com/mainjs/header_effect.js?vers=2"></script><script src="https://transfeero.com/mainjs/pax-selecta.js"></script><script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script><script>
+    function set_the_timezone(timezone, iata) {
+        const DateTime = luxon.DateTime;
+        const Timezone = timezone;
+
+        const da = DateTime.local().setZone(Timezone).plus({days: 1}).toFormat("HH");
+        const mm = DateTime.local().setZone(Timezone).plus({days: 1}).toFormat("mm");
+        const mmA = DateTime.local().setZone(Timezone).plus({hours: 6}).toFormat("HH");
+        console.log(da);
+        console.log(mmA);
+        console.log(iata);
+
+        const d = DateTime.local().setZone(Timezone).plus({days: 0}).toISO();
+        picker.set('min', new Date(d))
+
+
+    }
+</script><script type="text/javascript">
+    $(document).on("click", ".booknowa", function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#page-wrapper").offset().top
+        }, 500);
+    });
+</script><script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize="1" src="https://www.transfeero.com/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=3.1.11"></script><script type="text/javascript" src="https://www.transfeero.com/wp-content/themes/understrap-master/js/theme.min.js?m=1581079587"></script><script>
+
+function onLoad() {
+		 gapi.load('auth2', function() {
+				 gapi.auth2.init();
+		 });
+ }
+
+
+	function signOut() {
+
+    Cookies.remove('wp-trfee-trfee_l_hash',{ path: '/', domain: '.transfeero.com'})
+    Cookies.remove('wp-trfee-trfee_c_data',{ path: '/', domain: '.transfeero.com'})
+    Cookies.remove('wp-trfee-trfee_b_data',{ path: '/', domain: '.transfeero.com'})
+		var auth2 = gapi.auth2.getAuthInstance();
+		if(typeof auth2 !== 'undefined') {
+
+			auth2.signOut().then(function () {
+				window.location.href = "https://www.transfeero.com/destroy.php";
+			});
+		}
+
+
+}
+
+	function signOut2() {
+    
+		var auth2 = gapi.auth2.getAuthInstance();
+		if(typeof auth2 !== 'undefined') {
+
+			auth2.signOut().then(function () {
+				window.location.href = "https://www.transfeero.com/destroy.php";
+			});
+	}
+
+}
+  function signOut_nor() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    if(typeof auth2 !== 'undefined') {
+
+      auth2.signOut().then(function () {
+        
+      });
+  }
+
+}
+
+</script><script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/en-gb.min.js"></script><script>
+
+(function () {
+    var w = window;
+    var ic = w.Intercom;
+    if (typeof ic === "function") {
+        ic('reattach_activator');
+        ic('update', w.intercomSettings);
+    } else {
+        var d = document;
+        var i = function () {
+            i.c(arguments);
+        };
+        i.q = [];
+        i.c = function (args) {
+            i.q.push(args);
+        };
+        w.Intercom = i;
+        var l = function () {
+            setTimeout(function () {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/q2t0raq9';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }, 5000);
+        };
+        if (w.attachEvent) {
+            w.attachEvent('onload', l);
+        } else {
+            w.addEventListener('load', l, false);
+        }
+    }
+})();
+</script><script>
+	$(".valuta").click(function(e){
+    e.preventDefault();
+    var id = $(this).attr("data-id");
+	var name = $(this).attr("data-name");
+	var url = "https://www.transfeero.com/wp-content/themes/understrap-master/valuta.php";
+
+	$.ajax({
+                    type: "POST",
+                    url: url,//url to file
+                    data: {a:id,b:name},
+                    success: function(data){
+                   location.reload();
+                      }
+
+                    });
+
+
+    console.log(id,name);
+
+
+
+    });
+</script><script>(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script><script src="https://www.transfeero.com/mainjs/js.cookie.min.js"></script><script>
+    
+    $(document).ready(function(){
+      
+      setTimeout(function() {
+        check_login_status();
+        }, 500);
+        
+        function check_login_status() {
+        var trfee_l_hash = Cookies.get('wp-trfee-trfee_l_hash');
+        var trfee_c_data = Cookies.get('wp-trfee-trfee_c_data');
+         
+        if(trfee_l_hash == '' || trfee_l_hash == null || trfee_c_data == '' || trfee_c_data == null) {
+      
+          $('#is_log_out').css('display', 'inline-block');
+          $('#is_log_in_login').hide();
+          
+          $('#is_log_out_m').css('display', 'inline-block');
+          $('#is_log_in_login_m').hide();
+          
+          
+         
+          window.intercomSettings = {
+          app_id: "q2t0raq9"
+          };
+          
+          
+        } else {
+        
+        var trfee_c_data = $.parseJSON(trfee_c_data);
+      
+        var active = trfee_c_data.active;
+        var datetime_format_24 = trfee_c_data.datetime_format_24;
+        var email = trfee_c_data.email;
+        var f_name = trfee_c_data.f_name;
+        var l_name = trfee_c_data.l_name;
+        var lang = trfee_c_data.lang;
+        var mobile = trfee_c_data.mobile;
+        var name = trfee_c_data.name;
+        var user_id = trfee_c_data.user_id;
+        
+        var user_data_is_agency = trfee_c_data.is_agency;
+        
+        if(user_data_is_agency == '1') {
+          var is_travel_agency_text = "(TRAVEL AGENCY)";
+        } else {
+          var is_travel_agency_text = "";
+        }
+      
+        
+        $('#the_login_name').html(f_name);
+        $('#the_login_name_m').html(f_name);
+        
+        
+        window.intercomSettings = {
+        app_id: "q2t0raq9",
+        name: name + " " + is_travel_agency_text, // Full name
+        email: email,
+        phone: mobile,
+        Cutomer_transfeero_id: user_id
+        };
+        
+      
+        $('#is_log_in').css('display', 'inline-block');
+        $('#is_log_in_login').hide();
+        
+        $('#is_log_in_m').css('display', 'inline-block');
+        $('#is_log_in_login_m').hide();
+        
+        }	
+        
+      }
+        
+        
+    });
+    
+  </script><script>
+  $( document ).ready(function() {
+    setTimeout(function() {
+    var valuta = Cookies.get('wp-trfee-valuta');
+    var valutas = Cookies.get('wp-trfee-valutas');
+    $('#the_curr').html(valuta);
+    $('#the_currs').html(valutas);
+    }, 1000);
+    });
+    
+  </script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
+myID = document.getElementById("book_action_mobile");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 800) {
+    myID.className = "book_action_mobile_show"
+  } else {
+    myID.className = "book_action_mobile_hide"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
+</script>
